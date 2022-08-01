@@ -27,4 +27,4 @@ switch(chosenOption) {
         convertedDistance = "Conversão fora do padrão";
 }
 
-alert("A distância em Anos Luz: " + distanceLY + "\n" + chosenUnity + ":" + convertedDistance);
+alert("A distância em Anos Luz: " + distanceLY + "\n" + chosenUnity + ": " + convertedDistance);

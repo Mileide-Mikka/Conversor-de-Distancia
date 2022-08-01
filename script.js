@@ -6,7 +6,7 @@ let chosenOption = prompt("Para qual unidade devo converter?\n1. Parse(pc)\n2. u
 let chosenUnity; // variavel para guarda a unidade escolhida pelo usuario
 let convertedDistance; // variavel para guarda a distancia convertida
 
-Switch(chosenOption) {
+switch(chosenOption) {
     case "1":
         chosenUnity = "Parsec";
         convertedDistance = distanceLY * 0.306601;
